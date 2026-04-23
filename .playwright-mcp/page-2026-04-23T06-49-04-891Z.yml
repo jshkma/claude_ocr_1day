@@ -1,0 +1,28 @@
+- generic [ref=e3]:
+  - generic:
+    - img
+  - generic [ref=e4]:
+    - generic [ref=e8]:
+      - heading "Receipt Expense Tracker API 0.1.0 OAS 3.1" [level=2] [ref=e9]:
+        - text: Receipt Expense Tracker API
+        - generic [ref=e10]:
+          - generic [ref=e12]: 0.1.0
+          - generic [ref=e14]: OAS 3.1
+      - link "/openapi.json" [ref=e15] [cursor=pointer]:
+        - /url: /openapi.json
+        - generic [ref=e16]: /openapi.json
+    - generic [ref=e21]:
+      - heading "default Collapse operation" [level=3] [ref=e22] [cursor=pointer]:
+        - link "default" [ref=e23]:
+          - /url: "#/default"
+        - button "Collapse operation" [expanded] [ref=e24]:
+          - img [ref=e25]
+      - generic [ref=e31] [cursor=pointer]:
+        - button "get /" [ref=e32]:
+          - generic [ref=e33]: GET
+          - link / [ref=e35]:
+            - /url: "#/default/root__get"
+          - generic [ref=e36]: Root
+        - generic "Copy to clipboard"
+        - button "get /" [ref=e39]:
+          - img [ref=e40]

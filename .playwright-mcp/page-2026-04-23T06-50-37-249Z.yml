@@ -1,0 +1,100 @@
+- generic [ref=e3]:
+  - generic:
+    - img
+  - generic [ref=e4]:
+    - generic [ref=e8]:
+      - heading "Receipt Expense Tracker API 0.1.0 OAS 3.1" [level=2] [ref=e9]:
+        - text: Receipt Expense Tracker API
+        - generic [ref=e10]:
+          - generic [ref=e12]: 0.1.0
+          - generic [ref=e14]: OAS 3.1
+      - link "/openapi.json" [ref=e15] [cursor=pointer]:
+        - /url: /openapi.json
+        - generic [ref=e16]: /openapi.json
+    - generic [ref=e21]:
+      - heading "default Collapse operation" [level=3] [ref=e22] [cursor=pointer]:
+        - link "default" [ref=e23]:
+          - /url: "#/default"
+        - button "Collapse operation" [expanded] [ref=e24]:
+          - img [ref=e25]
+      - generic [ref=e30]:
+        - generic [ref=e31] [cursor=pointer]:
+          - button "get /" [expanded] [ref=e32]:
+            - generic [ref=e33]: GET
+            - link / [ref=e35]:
+              - /url: "#/default/root__get"
+            - generic [ref=e36]: Root
+          - generic "Copy to clipboard"
+          - button "get /" [expanded] [ref=e39]:
+            - img [ref=e44]
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - heading "Parameters" [level=4] [ref=e52] [cursor=pointer]
+              - button "Cancel" [ref=e93] [cursor=pointer]
+            - paragraph [ref=e57]: No parameters
+          - generic [ref=e58]:
+            - button "Execute" [ref=e94] [cursor=pointer]
+            - button "Clear" [ref=e95] [cursor=pointer]
+          - generic [ref=e59]:
+            - heading "Responses" [level=4] [ref=e61]
+            - generic [ref=e62]:
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - generic [ref=e98]:
+                    - heading "Curl" [level=4] [ref=e99]
+                    - button [ref=e101] [cursor=pointer]
+                    - code [ref=e104]: "curl -X 'GET' \\ 'http://localhost:8000/' \\ -H 'accept: application/json'"
+                  - generic [ref=e106]:
+                    - heading "Request URL" [level=4] [ref=e107]
+                    - generic [ref=e108]: http://localhost:8000/
+                  - heading "Server response" [level=4] [ref=e109]
+                  - table [ref=e110]:
+                    - rowgroup [ref=e111]:
+                      - row "Code Details" [ref=e112]:
+                        - cell "Code" [ref=e113]
+                        - cell "Details" [ref=e114]
+                    - rowgroup [ref=e115]:
+                      - 'row "200 Response body Download { \"status\": \"ok\", \"message\": \"Receipt Expense Tracker API\" } Response headers content-length: 55 content-type: application/json date: Thu,23 Apr 2026 06:50:34 GMT server: uvicorn" [ref=e116]':
+                        - cell "200" [ref=e117]
+                        - 'cell "Response body Download { \"status\": \"ok\", \"message\": \"Receipt Expense Tracker API\" } Response headers content-length: 55 content-type: application/json date: Thu,23 Apr 2026 06:50:34 GMT server: uvicorn" [ref=e118]':
+                          - generic [ref=e119]:
+                            - heading "Response body" [level=5] [ref=e120]
+                            - generic [ref=e121]:
+                              - button [ref=e123] [cursor=pointer]
+                              - button "Download" [ref=e124] [cursor=pointer]
+                              - code [ref=e126]: "{ \"status\": \"ok\", \"message\": \"Receipt Expense Tracker API\" }"
+                          - generic [ref=e127]:
+                            - heading "Response headers" [level=5] [ref=e128]
+                            - generic [ref=e129]:
+                              - generic [ref=e130]: "content-length: 55"
+                              - generic [ref=e131]: "content-type: application/json"
+                              - generic [ref=e132]: "date: Thu,23 Apr 2026 06:50:34 GMT"
+                              - generic [ref=e133]: "server: uvicorn"
+                - heading "Responses" [level=4] [ref=e134]
+              - region [ref=e63]:
+                - rowgroup [ref=e64]:
+                  - row "Code Description Links" [ref=e65]:
+                    - cell "Code" [ref=e66]
+                    - cell "Description" [ref=e67]
+                    - cell "Links" [ref=e68]
+                - rowgroup [ref=e69]:
+                  - row "200 Successful Response Media type application/json Controls Accept header. Example Value No links" [ref=e70]:
+                    - cell "200" [ref=e71]
+                    - cell "Successful Response Media type application/json Controls Accept header. Example Value" [ref=e72]:
+                      - paragraph [ref=e75]: Successful Response
+                      - generic [ref=e77]:
+                        - generic [ref=e78]: Media type
+                        - combobox "Media Type" [ref=e80]:
+                          - option "application/json" [selected]
+                        - generic [ref=e81]:
+                          - text: Controls
+                          - code [ref=e82]: Accept
+                          - text: header.
+                      - generic [ref=e83]:
+                        - tablist [ref=e84]:
+                          - tab "Example Value" [selected] [ref=e85] [cursor=pointer]
+                          - tab "Schema" [ref=e86] [cursor=pointer]
+                        - tabpanel "Example Value" [ref=e87]:
+                          - code [ref=e91]: "\"string\""
+                    - cell "No links" [ref=e92]
